@@ -1,0 +1,31 @@
+[0m16:38:22.932793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5d349400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5bac1a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5bba7f40>]}
+
+
+============================== 16:38:22.947184 | 167d55fe-8fde-4819-8274-ad2206c74f20 ==============================
+[0m16:38:22.947184 [info ] [MainThread]: Running with dbt=1.8.7
+[0m16:38:22.995234 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/vagrant/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:38:23.267268 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': PosixPath('/home/vagrant/.dbt')}
+[0m16:38:23.308354 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m16:38:35.110179 [debug] [MainThread]: Starter project path: /home/vagrant/.virtualenv/setupenv/lib/python3.8/site-packages/dbt/include/starter_project
+[0m16:38:42.656682 [info ] [MainThread]: 
+Your new dbt project "jornada" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:38:42.858147 [info ] [MainThread]: Setting up your profile.
+[0m16:41:22.223567 [info ] [MainThread]: Profile jornada written to /home/vagrant/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:41:22.315956 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 179.69815, "process_user_time": 11.382774, "process_kernel_time": 2.989089, "process_mem_max_rss": "86260", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m16:41:22.384463 [debug] [MainThread]: Command `dbt init` succeeded at 16:41:22.384140 after 179.77 seconds
+[0m16:41:22.493971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5d349400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a59eda4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5bac1a60>]}
+[0m16:41:22.588362 [debug] [MainThread]: Flushing usage events
